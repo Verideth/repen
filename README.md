@@ -10,3 +10,4 @@ Please, submit a pull request, or join my discord over @https://discord.gg/pNsp6
 Go ahead! Also, I really do encourage you to read the code if you want to understand how it works! :)
 
 ### Video?
+![GIF](https://i.imgur.com/gVDb0s5.gif)
