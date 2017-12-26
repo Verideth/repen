@@ -1,12 +1,5 @@
 #include "chip8_cpu.hpp"
 
-/*
-* All CPU emulation
-* is handled here.
-* I know the code isn't
-* great, but its somewhat readable.
-*/
-
 C_Chip8::C_Chip8(std::string file_name)
 {
 	this->file.open(file_name, std::ios::in | std::ios::binary);
