@@ -7,7 +7,6 @@ C_Chip8::C_Chip8(std::string file_name)
 
 void C_Chip8::initialize()
 {
-	this->registers.resize(16); /* 16 registers */
 	this->file.seekg(0, this->file.end);
 	this->length = this->file.tellg();
 	this->file.seekg(0, this->file.beg);
