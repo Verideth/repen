@@ -112,7 +112,7 @@ void C_Chip8::assemble()
 
 		case 0x8:
 		{
-			switch (opcode & 0x000F)
+			switch (op_lower_bit)
 			{
 				case 0x0:
 				{
