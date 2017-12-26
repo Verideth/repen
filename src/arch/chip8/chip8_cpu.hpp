@@ -15,7 +15,7 @@ public:
 	C_Chip8(std::string file_name);
 	void assemble();
 	void initialize();
-	void interpret();
+	void interpret(); /* work on later, I got a surprise :) */
 
 private:
 	std::size_t length;
