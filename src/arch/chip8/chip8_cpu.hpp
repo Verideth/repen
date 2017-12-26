@@ -21,5 +21,4 @@ private:
 	std::size_t length;
 	std::ifstream file;
 	std::unique_ptr<std::uint8_t[]> buffer;
-	std::vector<std::uint8_t> registers;
 };
