@@ -22,5 +22,4 @@ private:
 	std::ifstream file;
 	std::unique_ptr<std::uint8_t[]> buffer;
 	std::vector<std::uint8_t> registers;
-	std::unique_ptr<std::uint8_t[]> memory;
 };
